@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eaeaea;
+}
+
+/* Center box */
+.container {
+  width: 350px;
+  margin: 100px auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.tabs .active {
+  background: #0b3c5d;
+  color: white;
+  font-weight: bold;
+}
+
+/* Form */
+.form-box {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+/* Forgot password */
+.forgot {
+  text-align: right;
+  color: #007bff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Button */
+.btn {
+  width: 100%;
+  padding: 12px;
+  background: #0b3c5d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Bottom text */
+.bottom-text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+/* Error message */
+.error {
+  color: red;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Animation */
+.fade {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
